@@ -1,17 +1,13 @@
 #include <stdio.h>
 int main()
 {
-    int n1, n2, n3;
-    scanf("%d %d %d", &n1, &n2, &n3);
-
-    if( n1>=n2 && n1>=n3 )
-        printf("%d", n1);
-
-    if( n2>=n1 && n2>=n3 )
-        printf("%d", n2);
-
-    if( n3>=n1 && n3>=n2 )
-        printf("%d", n3);
-
+    int a,b,c;
+    scanf("%d %d %d",&a,&b,&c);
+    if(a>=b&&a>=c)
+        printf("%d",a);
+    if(b>=a&&b>=c)
+        printf("%d",b);
+    if(c>=a&&c>=b)
+       printf("%d",c);
     return 0;
 }
