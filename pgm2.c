@@ -13,7 +13,7 @@ if(isdigit(b)==0)
     }
     else
     {
-        printf("odd");
+        printf("Odd");
     }
 }
 else
