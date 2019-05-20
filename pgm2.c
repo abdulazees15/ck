@@ -5,18 +5,13 @@ int main()
 {
    int b;
    scanf("%d",&b);
-if(isdigit(b)==1)
-{
     if(b%2==0)
     {
-    printf("even");
+    printf("Even");
     }
     else
     {
         printf("Odd");
     }
-}
-else
-printf("invalid");
     return 0;
 }
