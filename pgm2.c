@@ -5,7 +5,7 @@ int main()
 {
    int b;
    scanf("%d",&b);
-if(isdigit(b)==0)
+if(isdigit(b)==1)
 {
     if(b%2==0)
     {
