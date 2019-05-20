@@ -4,8 +4,6 @@ void main()
 int i,n,n1,rem,rev=0;
 scanf("%d",&n);
 n1=n;
-if(n1<=1000)
-{
 for(i=0;n>0;i++)
 {
 rem=n%10;
@@ -17,6 +15,4 @@ printf("yes");
 else
 printf("no");
 }
-else
-printf("invalid");
 }
