@@ -9,7 +9,7 @@ if(c=='a'||c=='A'||c=='e'||c=='E'||c=='i'||c=='I'||c=='o'||c=='O'||c=='u'||c=='U
 }
     else
  {
-     printf("consonent");
+     printf("Consonant");
  }   
     return 0;
 }
