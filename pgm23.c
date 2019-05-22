@@ -17,4 +17,3 @@ void main()
    }
     printf("%d",min);
 }
-© 2019 GitHub, In
