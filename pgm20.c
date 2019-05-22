@@ -1,10 +1,10 @@
 #include <stdio.h>
-int main()
+void main()
 {
-    int i,num;
-    scanf("%d",&num);
+    int i,n;
+    scanf("%d",&n);
     for(i=1;i<=5;i++)
     {
-     printf("%d ",num*i);
+     printf("%d ",n*i);
 }
 }
